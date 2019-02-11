@@ -70,10 +70,6 @@ func (c *AuthorizeExplicitGrantHandler) HandleAuthorizeEndpointRequest(ctx conte
 	// 	 return errors.WithStack(fosite.ErrInvalidGrant)
 	// }
 
-	if !fosite.IsRedirectURISecure(ar.GetRedirectURI()) {
-		return errors.WithStack(fosite.ErrInvalidRequest.WithHint("Redirect URL is using an insecure protocol, http is only allowed for hosts with suffix `localhost`, for example: http://myapp.localhost/."))
-	}
-
 	client := ar.GetClient()
 	for _, scope := range ar.GetRequestedScopes() {
 		if !c.ScopeStrategy(client.GetScopes(), scope) {
