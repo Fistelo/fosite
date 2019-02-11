@@ -33,8 +33,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	. "github.com/ory/fosite"
-	"github.com/ory/fosite/internal"
+	. "github.com/fistelo/fosite"
+	"github.com/fistelo/fosite/internal"
 )
 
 func TestWriteIntrospectionError(t *testing.T) {

@@ -31,8 +31,8 @@ import (
 	"github.com/mohae/deepcopy"
 	"github.com/pkg/errors"
 
-	"github.com/ory/fosite"
-	"github.com/ory/fosite/token/jwt"
+	"github.com/fistelo/fosite"
+	"github.com/fistelo/fosite/token/jwt"
 	"github.com/ory/go-convenience/stringslice"
 )
 

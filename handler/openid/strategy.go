@@ -24,7 +24,7 @@ package openid
 import (
 	"context"
 
-	"github.com/ory/fosite"
+	"github.com/fistelo/fosite"
 )
 
 type OpenIDConnectTokenStrategy interface {

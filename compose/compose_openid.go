@@ -22,9 +22,9 @@
 package compose
 
 import (
-	"github.com/ory/fosite/handler/oauth2"
-	"github.com/ory/fosite/handler/openid"
-	"github.com/ory/fosite/token/jwt"
+	"github.com/fistelo/fosite/handler/oauth2"
+	"github.com/fistelo/fosite/handler/openid"
+	"github.com/fistelo/fosite/token/jwt"
 )
 
 // OpenIDConnectExplicitFactory creates an OpenID Connect explicit ("authorize code flow") grant handler.

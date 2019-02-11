@@ -26,7 +26,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/ory/fosite"
+	"github.com/fistelo/fosite"
 )
 
 type CoreValidator struct {

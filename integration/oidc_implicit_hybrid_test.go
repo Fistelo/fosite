@@ -35,11 +35,11 @@ import (
 	"github.com/stretchr/testify/require"
 	"golang.org/x/oauth2"
 
-	"github.com/ory/fosite"
-	"github.com/ory/fosite/compose"
-	"github.com/ory/fosite/handler/openid"
-	"github.com/ory/fosite/internal"
-	"github.com/ory/fosite/token/jwt"
+	"github.com/fistelo/fosite"
+	"github.com/fistelo/fosite/compose"
+	"github.com/fistelo/fosite/handler/openid"
+	"github.com/fistelo/fosite/internal"
+	"github.com/fistelo/fosite/token/jwt"
 )
 
 func TestOIDCImplicitFlow(t *testing.T) {

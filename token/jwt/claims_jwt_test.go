@@ -27,7 +27,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	. "github.com/ory/fosite/token/jwt"
+	. "github.com/fistelo/fosite/token/jwt"
 )
 
 var jwtClaims = &JWTClaims{

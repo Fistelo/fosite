@@ -30,7 +30,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ory/fosite/internal"
+	"github.com/fistelo/fosite/internal"
 )
 
 var header = &Headers{

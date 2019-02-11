@@ -29,8 +29,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ory/fosite"
-	"github.com/ory/fosite/token/jwt"
+	"github.com/fistelo/fosite"
+	"github.com/fistelo/fosite/token/jwt"
 )
 
 func TestJWTStrategy_GenerateIDToken(t *testing.T) {
